@@ -67,6 +67,7 @@ services:
     container_name: jupyter
     image: arjones/pyspark:2.4.5
     restart: always
+    command: jupyter notebook --ip=0.0.0.0 --port=8888 --no-browser --allow-root --NotebookApp.token=''
     environment:
       MASTER: spark://master:7077
     depends_on:
