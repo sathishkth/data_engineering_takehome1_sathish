@@ -1,0 +1,12 @@
+# Ignore Jupyter temporary files
+.ipynb_checkpoints/
+
+# Ignore processed datasets
+dataset/processed_nyc_jobs_sathishThangavelu*
+
+# Ignore Python cache
+__pycache__/
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
